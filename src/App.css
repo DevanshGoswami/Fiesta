@@ -34,7 +34,7 @@
 
 .active,
 .accordion:hover {
-  background-color: #4b1178;
+  background-color: black;
 }
 
 .accordion:after {
