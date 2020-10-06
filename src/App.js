@@ -1,26 +1,42 @@
 import React from 'react';
-import logo from './logo.svg';
+import Home from './home';
 import './App.css';
+import {Track} from './tracks.js';
+import {Switch , Route ,BrowserRouter as Router} from 'react-router-dom';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import RegForm from './regform';
+import {Thanks,Error} from './thanks';
+
+class App extends React.Component{
+  render() {
+    return (
+      <Router>
+        <div className="App">
+     
+          <Switch location = {this.props.location}>
+            <Route path="/" exact render ={()=>(
+              <Home/>
+            )}/>
+            <Route path="/tracks" exact render ={()=>(
+              <Track/>
+            )}/>
+             <Route path="/registration" exact render ={()=>(
+              <RegForm/>
+            )}/>
+             <Route path="/thanks" exact render ={()=>(
+              <Thanks/>
+            )}/>
+             <Route path="*" exact render ={()=>(
+              <Error/>
+            )}/>
+           
+          </Switch> 
+        </div>
+     </Router>
+    );
+  }
 }
+
+
 
 export default App;
