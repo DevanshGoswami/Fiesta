@@ -1,18 +1,32 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Home from './home';
 import './App.css';
 import {Track} from './tracks.js';
-import {Switch , Route ,BrowserRouter as Router} from 'react-router-dom';
+import {Switch , Route ,BrowserRouter as Router,useLocation} from 'react-router-dom';
 
 import RegForm from './regform';
 import {Thanks,Error} from './thanks';
 
+
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
+
 class App extends React.Component{
   render() {
     return (
+      <>
+     
       <Router>
         <div className="App">
-     
+        <ScrollToTop/>
           <Switch location = {this.props.location}>
             <Route path="/" exact render ={()=>(
               <Home/>
@@ -33,6 +47,7 @@ class App extends React.Component{
           </Switch> 
         </div>
      </Router>
+     </>
     );
   }
 }
