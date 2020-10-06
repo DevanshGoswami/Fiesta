@@ -1,7 +1,7 @@
 import React from 'react';
 import './assets/css/main.css';
 import './assets/css/fontawesome-all.min.css';
-
+import Accordion from './test';
 import Banner from './images/banner.jpg';
 import sp1 from './images/spotlight01.jpg';
 import sp2 from './images/spotlight02.jpg';
@@ -11,11 +11,31 @@ import Logo from './images/cheff.png';
 import {withRouter,Link} from 'react-router-dom';
 import {Helmet} from 'react-helmet';
 import Andi from './images/andi.png';
+import Timeline from './images/timeline.png'
+import B3 from './images/banner3.jpg';
 
 class Home extends React.Component{
    
 
     render(){
+
+        const data = [
+            { id: 1, name: "How do I register for Chef's Fiesta?", 
+            content: "Registration link will be provided for all the events on social media platforms and codechefsrm.in/events", state: "inactive" },
+            { id: 2, name: "Can I participate in more than one event?", 
+            content: "Yes, you can participate in multiple events.", state: "inactive" },
+            { id: 3, name: "Is there a registration fee?", 
+            content: "No, there's no registration fee for any event.", state: "inactive" },
+            { id: 4, name: "How do I attend the webinars?", 
+            content: "After you register, the link for the webinar, timing and platform will be e-mailed to your registered e-mail ID prior to the event.", state: "inactive" },
+            { id: 5, name: "Will I get a certificate for participating in an event?", 
+            content: "Yes, everyone who participates will receive a participation certificate.", state: "inactive" },
+            { id: 6, name: "How can I contact you if I face any problem?", 
+            content: "You can contact us at – codechefsrm@gmail.com", state: "inactive" },
+            { id: 7, name: "How do I register for Chef's Fiesta?", 
+            content: "01010100 01101111 00100000 01000011 01101111 01100100 01100101 00100000 01001111 01110101 01110010 00100000 01001000 01100101 01100001 01110010 01110100 01110011 00100000 01001111 01110101 01110100 00100001.", state: "inactive" },
+            
+          ];
        return(
         <>
         <Helmet>
@@ -106,50 +126,39 @@ class Home extends React.Component{
         </div>
     </section>
 
+    <section className="spotlight style4 orient-center content-align-center image-position-center onscroll-image-fade-in" id="first">
+						<div className="content">
+                        <h2 style={{fontWeight:"800",fontSize:"55px"}}><span style={{color:'#0f1178'}}>Time</span>line</h2>
+                        <p className="major" style={{fontWeight:"400"}}>
+                            Chef's not there yet?<br></br>
+                            Something is definitely cooking....
+                        </p>
+						</div>
+                        <div className="image">
+                            <img src={B3} alt="" />
+                        </div>
+						
+					</section>
+
+    <section className="spotlight style4 orient-center content-align-left image-position-center onscroll-image-fade-in" id="first">
+						<div className="content" style={{marginTop:"140px",marginBottom:"140px"}}>
+							
+						</div>
+						<div className="image">
+                            <img src={Timeline} alt=""/>
+                            </div>
+					</section>
+                   
 
    
     <section className="wrapper style1 align-left">
 						<div className="inner">
-                        <section>
+                      
 										<header>
 											<h3 style={{fontWeight:"bold",fontSize:"50px"}}><span style={{color:"#0f1178"}}>F</span>AQs</h3>
 										</header>
-										<div className="content">
-
-											<dl>
-												<dt>Q1. How do I register for Chef's Fiesta?</dt>
-												<dd>
-													<p>A- Registration link will be provided for all the events on social media platforms and <a className="theme" href="https://codechefsrm.in/events">codechefsrm.in/events</a></p>
-												</dd>
-												<dt>Q2. Can I participate in more than one event?</dt>
-												<dd>
-													<p>A- Yes, you can participate in multiple events.</p>
-												</dd>
-												<dt>Q3. Is there a registration fee for participating in the events?</dt>
-												<dd>
-													<p>A- No, there's no registration fee for any event.</p>
-												</dd>
-                                                <dt>Q4. How do I attend the webinars?</dt>
-												<dd>
-													<p>A- After you register, the link for the webinar, timing and platform will be e-mailed to your registered e-mail ID prior to the event.</p>
-												</dd>
-                                                <dt>Q5. Will I get a certificate for participating in an event?</dt>
-												<dd>
-													<p>A- Yes, everyone who participates will receive a participation certificate.</p>
-												</dd>
-                                                <dt>Q6. How can  I contact you if I face any problem?</dt>
-												<dd>
-													<p>A- You can contact us at – <a className="theme" href="mailto:codechefsrm@gmail.com">codechefsrm@gmail.com</a></p>
-												</dd>
-                                                <dt>Q7. What do Chefs love the most?</dt>
-												<dd>
-													<p>A- 01010100 01101111 00100000 01000011 01101111 01100100 01100101 00100000 01001111 01110101 01110010 00100000 01001000 01100101 01100001 01110010 01110100 01110011 00100000 01001111 01110101 01110100 00100001.</p>
-												</dd>
-											</dl>
-
-										</div>
-									</section>
-
+										
+                                    <Accordion data={data} />
                             </div>
                             </section>
 
