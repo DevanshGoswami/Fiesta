@@ -20,7 +20,7 @@ class Home extends React.Component{
     render(){
 
         const data = [
-            { id: 1, name: "How do I register for Chef's Fiesta?", 
+            { id: 1, name: "How do I register for various events in Chef's Fiesta?", 
             content: "Registration link will be provided for all the events on social media platforms and codechefsrm.in/events", state: "inactive" },
             { id: 2, name: "Can I participate in more than one event?", 
             content: "Yes, you can participate in multiple events.", state: "inactive" },
@@ -32,7 +32,7 @@ class Home extends React.Component{
             content: "Yes, everyone who participates will receive a participation certificate.", state: "inactive" },
             { id: 6, name: "How can I contact you if I face any problem?", 
             content: "You can contact us at – codechefsrm@gmail.com", state: "inactive" },
-            { id: 7, name: "How do I register for Chef's Fiesta?", 
+            { id: 7, name: "Something which Chef loves the most?", 
             content: "01010100 01101111 00100000 01000011 01101111 01100100 01100101 00100000 01001111 01110101 01110010 00100000 01001000 01100101 01100001 01110010 01110100 01110011 00100000 01001111 01110101 01110100 00100001.", state: "inactive" },
             
           ];
