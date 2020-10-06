@@ -141,7 +141,7 @@ class Home extends React.Component{
 												<dd>
 													<p>A- You can contact us at – <a className="theme" href="mailto:codechefsrm@gmail.com">codechefsrm@gmail.com</a></p>
 												</dd>
-                                                <dt>Q7. What do Chef's love the most?</dt>
+                                                <dt>Q7. What do Chefs love the most?</dt>
 												<dd>
 													<p>A- 01010100 01101111 00100000 01000011 01101111 01100100 01100101 00100000 01001111 01110101 01110010 00100000 01001000 01100101 01100001 01110010 01110100 01110011 00100000 01001111 01110101 01110100 00100001.</p>
 												</dd>
