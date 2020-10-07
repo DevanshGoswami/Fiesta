@@ -7,6 +7,30 @@
   font-weight: bold;
 }
 
+.theme3{
+  color:#118f46;
+  font-weight: bold;
+}
+.theme3:hover{
+  color:green;
+}
+
+.theme4{
+  color:#13007d;
+  font-weight: bold;
+}
+.theme4:hover{
+  color:blue;
+}
+
+.theme5{
+  color:#ea6943;
+  font-weight: bold;
+}
+.theme5:hover{
+  color:orange;
+}
+
 .theme2:hover{
   color:brown;
 }

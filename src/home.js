@@ -11,8 +11,8 @@ import Logo from './images/cheff.png';
 import {withRouter,Link} from 'react-router-dom';
 import {Helmet} from 'react-helmet';
 import Andi from './images/andi.png';
-import Timeline from './images/timeline.png'
-import B3 from './images/banner3.jpg';
+import Timeline from './images/timeline.jpg'
+
 
 class Home extends React.Component{
    
@@ -96,7 +96,9 @@ class Home extends React.Component{
         <div className="content">
             <h2 style={{fontWeight:"800",fontSize:"50px"}}>A <span style={{color:"#118f46"}}>PINCH OF CODE</span> 2.0</h2>
             <p style={{fontWeight:"400"}}>Remember A pinch of Code? We are back with an upgrade to hook you to your desktops and test your coding skills. Engage in APOC 2.0 on 24th October 2020. </p>
-           
+            <ul className="actions stacked">
+			  <li><Link to="/APOC" className="button primary2 theme1">Learn More</Link></li>
+			</ul>
         </div>
         <div className="image">
             <img src={sp2} alt="" />
@@ -108,7 +110,9 @@ class Home extends React.Component{
         <div className="content">
             <h2 style={{fontWeight:"800",fontSize:"50px"}}><span style={{color:"#13007d"}}>ABHI</span>VYAKTI</h2>
             <p style={{fontWeight:"400"}}>Who needs ebooks when you have your novels? Well for all you avid readers and writers out there, CodeChef is organising an article writing competition where you can showcase your writing skills and stand a chance to stand out among all your fellow writers.</p>
-           
+            <ul className="actions stacked">
+			  <li><Link to="/abhivyakti" className="button primary3 theme1">Learn More</Link></li>
+			</ul>
         </div>
         <div className="image">
             <img src={sp3} alt="" />
@@ -119,7 +123,9 @@ class Home extends React.Component{
         <div className="content">
             <h2 style={{fontWeight:"800",fontSize:"50px"}}>FRY <span style={{color:"#ea6943"}}>'N'</span> TRY</h2>
             <p style={{fontWeight:"400"}}>So you’re a quizzer stuck at home with no quiz events but “Kaun Banega crorepati”? Well, wait no more as CodeChef brings to you; its quizzing event, stay tuned to know more!</p>
-            
+            <ul className="actions stacked">
+			  <li><Link to="/FryNTry" className="button primary4 theme1">Learn More</Link></li>
+			</ul>
         </div>
         <div className="image">
             <img src={sp4} alt="" />
@@ -130,18 +136,16 @@ class Home extends React.Component{
 						<div className="content">
                         <h2 style={{fontWeight:"800",fontSize:"55px"}}><span style={{color:'#0f1178'}}>Time</span>line</h2>
                         <p className="major" style={{fontWeight:"400"}}>
-                            Chef's not there yet?<br></br>
-                            Something is definitely cooking....
+                            The Chef has not served yet?<br></br>
+                            Something delicious is cooking....
                         </p>
 						</div>
-                        <div className="image">
-                            <img src={B3} alt="" />
-                        </div>
+                        
 						
 					</section>
 
     <section className="spotlight style4 orient-center content-align-left image-position-center onscroll-image-fade-in" id="first">
-						<div className="content" style={{marginTop:"140px",marginBottom:"140px"}}>
+						<div className="content" style={{marginTop:"150px",marginBottom:"40px"}}>
 							
 						</div>
 						<div className="image">
@@ -178,7 +182,9 @@ class Home extends React.Component{
 							<li><a href="mailto:codechefsrm@gmail.com" className="icon style1 fa-envelope theme"><span className="label" target = "_blank" rel = "noopener noreferrer">Email</span></a></li>
 						</ul>
 
-                        <p style={{fontWeight:"500",fontSize:"22px"}}><Link to="/" style={{textDecoration:"none",color:"#4b1178"}}>HOME</Link> <br></br> <Link to="/tracks" style={{textDecoration:"none",color:"#4b1178"}}>TRACKS</Link> <br></br> <Link to="/registration" style={{textDecoration:"none",color:"#4b1178"}}>REGISTER</Link></p>
+                        <p style={{fontWeight:"400",fontSize:"18px"}}><Link to="/" style={{textDecoration:"none",color:"#0f1178"}}>HOME</Link> <br></br> <Link to="/tracks" style={{textDecoration:"none",color:"#0f1178"}}>TRACKS</Link><br></br>
+            <Link to="/APOC" style={{textDecoration:"none",color:"#0f1178"}}>APOC |</Link> <Link to="/abhivyakti" style={{textDecoration:"none",color:"#0f1178"}}> Abhivyakti |</Link> <Link to="/FryNTry" style={{textDecoration:"none",color:"#0f1178"}}> Fry 'N' Try</Link>
+            <br></br> <Link to="/registration" style={{textDecoration:"none",color:"#0f1178"}}>REGISTER</Link></p>
                         
 						<p><span className="theme">&copy;</span> Chef's Fiesta: All Rights Reserved.</p>
                         <p>{'</>'} by <a href="https://codechefsrm.in" className="theme" style={{textDecoration:"none"}}>CodeChef SRM</a></p>

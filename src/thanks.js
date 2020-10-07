@@ -52,7 +52,9 @@ export const Thanks = () =>{
                 <li><a href="https://in.linkedin.com/company/ccscsrm" className="icon brands style1 fa-linkedin-in theme" target = "_blank" rel = "noopener noreferrer"><span className="label">LinkedIn</span></a></li>
                 <li><a href="mailto:codechefsrm@gmail.com" className="icon style1 fa-envelope theme"><span className="label" target = "_blank" rel = "noopener noreferrer">Email</span></a></li>
             </ul>
-            <p style={{fontWeight:"500",fontSize:"22px"}}><Link to="/" style={{textDecoration:"none",color:"#4b1178"}}>HOME</Link> <br></br> <Link to="/tracks" style={{textDecoration:"none",color:"#4b1178"}}>TRACKS</Link> <br></br> <Link to="/registration" style={{textDecoration:"none",color:"#4b1178"}}>REGISTER</Link></p>
+            <p style={{fontWeight:"400",fontSize:"18px"}}><Link to="/" style={{textDecoration:"none",color:"#0f1178"}}>HOME</Link> <br></br> <Link to="/tracks" style={{textDecoration:"none",color:"#0f1178"}}>TRACKS</Link><br></br>
+            <Link to="/APOC" style={{textDecoration:"none",color:"#0f1178"}}>APOC |</Link> <Link to="/abhivyakti" style={{textDecoration:"none",color:"#0f1178"}}> Abhivyakti |</Link> <Link to="/FryNTry" style={{textDecoration:"none",color:"#0f1178"}}> Fry 'N' Try</Link>
+            <br></br> <Link to="/registration" style={{textDecoration:"none",color:"#0f1178"}}>REGISTER</Link></p>
             
             <p><span className="theme">&copy;</span> Chef's Fiesta: All Rights Reserved.</p>
             <p>{'</>'} by <a href="https://codechefsrm.in" className="theme" style={{textDecoration:"none"}}>CodeChef SRM</a></p>
@@ -114,7 +116,9 @@ export const Error = () =>{
                 <li><a href="https://in.linkedin.com/company/ccscsrm" className="icon brands style1 fa-linkedin-in theme" target = "_blank" rel = "noopener noreferrer"><span className="label">LinkedIn</span></a></li>
                 <li><a href="mailto:codechefsrm@gmail.com" className="icon style1 fa-envelope theme"><span className="label" target = "_blank" rel = "noopener noreferrer">Email</span></a></li>
             </ul>
-            <p style={{fontWeight:"500",fontSize:"22px"}}><Link to="/" style={{textDecoration:"none",color:"#4b1178"}}>HOME</Link> <br></br> <Link to="/tracks" style={{textDecoration:"none",color:"#4b1178"}}>TRACKS</Link> <br></br> <Link to="/registration" style={{textDecoration:"none",color:"#4b1178"}}>REGISTER</Link></p>
+            <p style={{fontWeight:"400",fontSize:"18px"}}><Link to="/" style={{textDecoration:"none",color:"#0f1178"}}>HOME</Link> <br></br> <Link to="/tracks" style={{textDecoration:"none",color:"#0f1178"}}>TRACKS</Link><br></br>
+            <Link to="/APOC" style={{textDecoration:"none",color:"#0f1178"}}>APOC |</Link> <Link to="/abhivyakti" style={{textDecoration:"none",color:"#0f1178"}}> Abhivyakti |</Link> <Link to="/FryNTry" style={{textDecoration:"none",color:"#0f1178"}}> Fry 'N' Try</Link>
+            <br></br> <Link to="/registration" style={{textDecoration:"none",color:"#0f1178"}}>REGISTER</Link></p>
             
             <p><span className="theme">&copy;</span> Chef's Fiesta: All Rights Reserved.</p>
             <p>{'</>'} by <a href="https://codechefsrm.in" className="theme" style={{textDecoration:"none"}}>CodeChef SRM</a></p>

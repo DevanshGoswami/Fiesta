@@ -2230,6 +2230,34 @@ input, select, textarea {
 			color: #ffffff !important;
 		}
 
+		input[type="submit"].primary2,
+		input[type="reset"].primary2,
+		input[type="button"].primary2,
+		button.primary2,
+		.button.primary2 {
+			background-color: #118f46;
+			box-shadow: none;
+			color: #ffffff !important;
+		}
+		input[type="submit"].primary3,
+		input[type="reset"].primary3,
+		input[type="button"].primary3,
+		button.primary3,
+		.button.primary3 {
+			background-color: #13007d;
+			box-shadow: none;
+			color: #ffffff !important;
+		}
+		input[type="submit"].primary4,
+		input[type="reset"].primary4,
+		input[type="button"].primary4,
+		button.primary4,
+		.button.primary4 {
+			background-color: #ea6943;
+			box-shadow: none;
+			color: #ffffff !important;
+		}
+
 			input[type="submit"].primary:hover,
 			input[type="reset"].primary:hover,
 			input[type="button"].primary:hover,
@@ -2244,6 +2272,27 @@ input, select, textarea {
 			.button.primary1:hover {
 				background-color: brown;
 			}
+			input[type="submit"].primary2:hover,
+			input[type="reset"].primary2:hover,
+			input[type="button"].primary2:hover,
+			button.primary2:hover,
+			.button.primary2:hover {
+				background-color: green;
+			}
+			input[type="submit"].primary3:hover,
+			input[type="reset"].primary3:hover,
+			input[type="button"].primary3:hover,
+			button.primary3:hover,
+			.button.primary3:hover {
+				background-color: blue;
+			}
+			input[type="submit"].primary4:hover,
+			input[type="reset"].primary4:hover,
+			input[type="button"].primary4:hover,
+			button.primary4:hover,
+			.button.primary4:hover {
+				background-color: orange;
+			}
 			
 
 			input[type="submit"].primary:active,
@@ -2251,7 +2300,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #1ebdd1;
+				background-color: #4b1178;
 			}
 
 /* Form */

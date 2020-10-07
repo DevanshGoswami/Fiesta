@@ -1,11 +1,19 @@
 import React, {useEffect} from 'react';
-import Home from './home';
+
 import './App.css';
 import {Track} from './tracks.js';
 import {Switch , Route ,BrowserRouter as Router,useLocation} from 'react-router-dom';
 
 import RegForm from './regform';
 import {Thanks,Error} from './thanks';
+
+import {APOC} from './apoc';
+import {ABHI} from './abhi';
+import {FRY} from './fry';
+import Loader from './loader';
+
+const Home = React.lazy(()=>import('./home'));
+
 
 
 
@@ -29,10 +37,24 @@ class App extends React.Component{
         <ScrollToTop/>
           <Switch location = {this.props.location}>
             <Route path="/" exact render ={()=>(
-              <Home/>
+              <React.Suspense fallback={<Loader/>}>
+                <Home/>
+              </React.Suspense>
+            )}/>
+             <Route path="/loader" exact render ={()=>(
+              <Loader/>
             )}/>
             <Route path="/tracks" exact render ={()=>(
               <Track/>
+            )}/>
+            <Route path="/abhivyakti" exact render ={()=>(
+              <ABHI/>
+            )}/>
+            <Route path="/APOC" exact render ={()=>(
+              <APOC/>
+            )}/>
+             <Route path="/FryNTry" exact render ={()=>(
+              <FRY/>
             )}/>
              <Route path="/registration" exact render ={()=>(
               <RegForm/>
