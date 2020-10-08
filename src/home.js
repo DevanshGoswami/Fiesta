@@ -1,5 +1,6 @@
 import React from 'react';
 import './assets/css/main.css';
+
 import './assets/css/fontawesome-all.min.css';
 import Accordion from './test';
 import Banner from './images/banner.jpg';
@@ -39,8 +40,8 @@ class Home extends React.Component{
        return(
         <>
         <Helmet>
-                        <meta charset="utf-8" />
-                        <link rel="icon" href={Andi} />
+        <meta charset="utf-8" />
+        <link rel="icon" href={Andi} />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <meta name="theme-color" content="#000000" />
             <meta
@@ -49,6 +50,11 @@ class Home extends React.Component{
              /> 
              <title>Chef's Fiesta - Home</title>
                 </Helmet>
+     
+           
+      
+
+
       <div id="wrapper" className="divided">
 
 

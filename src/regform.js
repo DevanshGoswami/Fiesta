@@ -14,7 +14,7 @@ class RegForm extends React.Component{
         this.state ={
             toMail: "",
             name: "",
-            college: "SRM IST",
+            college: "",
             regno: "",
             phone: "",
             hack:"",
@@ -69,7 +69,7 @@ class RegForm extends React.Component{
 
     render(){
 
-        const {toMail,phone,regno,name} = this.state;
+        const {toMail,phone,regno,name,college} = this.state;
 
         return(
             <>
@@ -134,6 +134,10 @@ class RegForm extends React.Component{
                     <div className="field half">
                         <label htmlFor="regno" className="theme">Registration Number</label>
                         <input type="text" name="regno" id="regno" value={regno} onChange={this.handleChange} required placeholder="RAXXXXXXXXXXXXX"/>
+                    </div>
+                    <div className="field">
+                        <label htmlFor="college" className="theme">College</label>
+                        <input type="text" name="college" id="college" value={college} onChange={this.handleChange} placeholder="Hogwarts School of Higher Studies" required/>
                     </div>
 
                   
