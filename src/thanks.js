@@ -35,7 +35,7 @@ export const Thanks = () =>{
             <br>
             </br>
             <p className="major" style={{fontSize:"20px"}}>Check your <span className="theme">MailBoxes</span> to register yourself for the chosen events.</p>
-            <ul className="actions stacked">
+            <ul className="actions fixed">
 								<li><Link to="/"  className="button primary big wide smooth-scroll-middle">HOME</Link></li>
 							</ul>
         </div>
