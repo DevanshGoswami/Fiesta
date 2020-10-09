@@ -7,8 +7,7 @@ import {
   NavbarToggler,
   NavbarBrand,
   Nav,
-  NavItem,
-  NavLink
+  NavItem
 } from 'reactstrap';
 import navlogo from './images/navlogo.png';
 
@@ -30,31 +29,31 @@ export const Navg = (props) => {
         <Collapse isOpen={isOpen} navbar >
           <Nav className="ml-auto d-block d-md-none" navbar>
             <NavItem className="mt-1">
-              <NavLink>
-              <Link to="/" className="link" onClick={collapseNot} style={{textDecoration:"none"}}  >Home</Link>
-              </NavLink>
+              
+              <Link to="/" className="link mx-3 my-2" onClick={collapseNot} style={{textDecoration:"none"}}  >Home</Link>
+              
             </NavItem>
             <NavItem className="mt-1">
-              <NavLink>
-              <Link to="/registration" className="link" onClick={collapseNot} style={{textDecoration:"none"}} >Register</Link>
-              </NavLink>
+              
+              <Link to="/registration" className="link mx-3 my-2" onClick={collapseNot} style={{textDecoration:"none"}} >Register</Link>
+              
             </NavItem>
             <NavItem className="mt-1">
-              <NavLink>
-              <Link to="/tracks" className="link" onClick={collapseNot} style={{textDecoration:"none"}} >Tracks</Link>
-              </NavLink>
-            </NavItem>
-           
-            <NavItem className="mt-1">
-              <NavLink>
-              <Link to="/abhivyakti" className="link" onClick={collapseNot} style={{textDecoration:"none"}} >Abhivyakti</Link>
-              </NavLink>
+              
+              <Link to="/tracks" className="link mx-3 my-2" onClick={collapseNot} style={{textDecoration:"none"}} >Tracks</Link>
+              
             </NavItem>
            
             <NavItem className="mt-1">
-              <NavLink>
-              <Link to="/faqs" className="link" onClick={collapseNot} style={{textDecoration:"none"}} >FAQs</Link>
-              </NavLink>
+              
+              <Link to="/abhivyakti" className="link mx-3 my-2" onClick={collapseNot} style={{textDecoration:"none"}} >Abhivyakti</Link>
+              
+            </NavItem>
+           
+            <NavItem className="mt-1">
+              
+              <Link to="/faqs" className="link mx-3 my-2" onClick={collapseNot} style={{textDecoration:"none"}} >FAQs</Link>
+              
             </NavItem>
           </Nav>
           
@@ -63,31 +62,31 @@ export const Navg = (props) => {
         <div className="d-none d-md-block">
         <Nav className="ml-auto" navbar>
             <NavItem className="mt-1">
-              <NavLink>
-              <Link to="/" className="link" style={{textDecoration:"none"}}   >Home</Link>
-              </NavLink>
+              
+              <Link to="/" className="link mx-3 my-2" style={{textDecoration:"none"}}   >Home</Link>
+              
             </NavItem>
             <NavItem className="mt-1">
-              <NavLink>
-              <Link to="/registration" className="link" style={{textDecoration:"none"}}  >Register</Link>
-              </NavLink>
+              
+              <Link to="/registration" className="link mx-3 my-2" style={{textDecoration:"none"}}  >Register</Link>
+              
             </NavItem>
             <NavItem className="mt-1">
-              <NavLink>
-              <Link to="/tracks" className="link" style={{textDecoration:"none"}}  >Tracks</Link>
-              </NavLink>
-            </NavItem>
-           
-            <NavItem className="mt-1">
-              <NavLink>
-              <Link to="/abhivyakti" className="link" style={{textDecoration:"none"}}  >Abhivyakti</Link>
-              </NavLink>
+              
+              <Link to="/tracks" className="link mx-3 my-2" style={{textDecoration:"none"}}  >Tracks</Link>
+              
             </NavItem>
            
             <NavItem className="mt-1">
-              <NavLink>
-              <Link to="/faqs" className="link" style={{textDecoration:"none"}}  >FAQs</Link>
-              </NavLink>
+              
+              <Link to="/abhivyakti" className="link mx-3 my-2" style={{textDecoration:"none"}}  >Abhivyakti</Link>
+              
+            </NavItem>
+           
+            <NavItem className="mt-1">
+              
+              <Link to="/faqs" className="link mx-3 my-2" style={{textDecoration:"none"}}  >FAQs</Link>
+              
             </NavItem>
           </Nav>
         </div>
