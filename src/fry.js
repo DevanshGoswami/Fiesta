@@ -25,7 +25,7 @@ export const FRY = () => {
              <title>Fry 'N' Try</title>
                 </Helmet>
                 <Navg style={{background:"#ea6943"}}/>
-       <div id="wrapper" className="divided">
+       <div id="wrapper" className="divided" style={{marginTop:"70px"}}>
 
 
     

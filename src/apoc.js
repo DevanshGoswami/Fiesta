@@ -25,7 +25,7 @@ export const APOC = () => {
              <title>APOC 2.0</title>
                 </Helmet>
                 <Navg style={{background:"#118f46"}}/>
-       <div id="wrapper" className="divided">
+       <div id="wrapper" className="divided" style={{marginTop:"70px"}}>
 
 
     

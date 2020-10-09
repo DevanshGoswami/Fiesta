@@ -6,6 +6,7 @@ import Logo from './images/cheff.png';
 import {Helmet} from 'react-helmet';
 import Andi from './images/andi.png';
 import {Link} from 'react-router-dom';
+import banner2 from './images/congo.jpg';
 
 
 
@@ -27,16 +28,19 @@ export const Thanks = () =>{
         <div id="wrapper" className="divided">
 
 
-    <section className="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right" >
+    <section className="banner style2 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right" >
         <div className="content">
         <h2 style={{fontWeight:"800",fontSize:"32px"}}><span style={{color:'#0f1178'}}>CONGRAT</span>ULATIONS<span style={{color:'#0f1178'}}>!</span>!</h2>
             <p className="major">You have been successfully registered for <span className="theme">Chef's</span> Fiesta.</p>
             <br>
             </br>
-            <p className="major" style={{fontSize:"20px"}}>Check your <span className="theme">MailBoxes</span>.</p>
+            <p className="major" style={{fontSize:"20px"}}>Check your <span className="theme">MailBoxes</span> to register yourself for the chosen events.</p>
             <ul className="actions stacked">
 								<li><Link to="/"  className="button primary big wide smooth-scroll-middle">HOME</Link></li>
 							</ul>
+        </div>
+        <div className="image">
+            <img src={banner2} alt="" />
         </div>
     </section>
 

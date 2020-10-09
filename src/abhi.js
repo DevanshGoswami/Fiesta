@@ -31,7 +31,7 @@ export const ABHI = () => {
     
 
 
-    <section className="wrapper style1 align-left">
+    <section className="wrapper style1 align-left" style={{marginTop:"70px"}}>
         <div className="inner">
         <h2 style={{fontWeight:"800",fontSize:"50px"}}><span style={{color:"#13007d"}}>ABHI</span>VYAKTI</h2>
         <p style={{fontWeight:"400"}}> In addition to the other events, Chef’s Fiesta also includes Editorials, comprising both <span className="theme4">technical and nontechnical</span> writing. This will test whether or not are the participants thorough with the conceptual knowledge or, which is necessary during placement sessions.<br></br> The participants will be required to submit their inputs within the given time frame and will be judged individually for their editorials.</p>

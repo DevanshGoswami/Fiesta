@@ -46,7 +46,7 @@ class Home extends React.Component{
     <section className="banner style2 orient-center content-align-center  fullscreen onload-image-fade-in onload-content-fade-right" style={{color:"white"}}>
         <div className="content">
         <h1 style={{fontWeight:"800",fontSize:"78px"}}><span style={{color:"white"}}>CHEF'S</span><span style={{color:"#0f1178"}}> FIESTA</span></h1>
-							<p style={{fontSize:"25px"}} className="major">Adding spice to your code.</p>
+							<p style={{fontSize:"25px",fontStyle:"italic"}} className="major">Adding spice to your code.</p>
                             <br></br>
 							<ul className="actions stacked">
 								<li><Link to="/registration"  className="button primary big wide smooth-scroll-middle">REGISTER</Link></li>

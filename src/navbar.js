@@ -22,7 +22,7 @@ export const Navg = (props) => {
 
   return (
     <div>
-      <Navbar dark  expand="md" style={props.style}>
+      <Navbar dark fixed="top" expand="md" style={props.style}>
         <NavbarBrand href="https://codechefsrm.in" className="mt-1"><img src={navlogo} alt="" height="20" width="110"></img></NavbarBrand>
         
         <NavbarToggler onClick={toggle}/>

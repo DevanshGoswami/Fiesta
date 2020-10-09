@@ -31,7 +31,7 @@ export const Track = () => {
              <title>Tracks</title>
                 </Helmet>
 				<Navg style={{background:"#d69d70"}}/>
-       <div id="wrapper" className="divided">
+       <div id="wrapper" className="divided" style={{marginTop:"70px"}}>
 
 
     

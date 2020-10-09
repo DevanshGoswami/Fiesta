@@ -37,7 +37,7 @@ class Loader extends React.Component{
         <>
        
                 <Navg style={{background:"#0f1178"}}/>
-      <div id="wrapper" className="divided">
+      <div id="wrapper" className="divided" style={{marginTop:"70px"}}>
       <section className="wrapper style1 align-center">
             <div className="inner">
             <h2 style={{fontWeight:"800",fontSize:"60px"}}><span style={{color:'#0f1178'}}>F</span>AQs</h2>
