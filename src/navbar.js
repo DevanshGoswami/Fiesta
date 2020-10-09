@@ -24,36 +24,36 @@ export const Navg = (props) => {
   return (
     <div>
       <Navbar dark  expand="md" style={props.style}>
-        <NavbarBrand href="https://codechefsrm.in"><img src={navlogo} alt="" height="20" width="110"></img></NavbarBrand>
+        <NavbarBrand href="https://codechefsrm.in" className="mt-1"><img src={navlogo} alt="" height="20" width="110"></img></NavbarBrand>
         <NavbarToggler onClick={toggle}  />
         
         <Collapse isOpen={isOpen} navbar >
           <Nav className="ml-auto d-block d-md-none" navbar>
             <NavItem className="mt-1">
               <NavLink>
-              <Link to="/" className="link" onClick={collapseNot}  >Home</Link>
+              <Link to="/" className="link" onClick={collapseNot} style={{textDecoration:"none"}}  >Home</Link>
               </NavLink>
             </NavItem>
             <NavItem className="mt-1">
               <NavLink>
-              <Link to="/registration" className="link" onClick={collapseNot} >Register</Link>
+              <Link to="/registration" className="link" onClick={collapseNot} style={{textDecoration:"none"}} >Register</Link>
               </NavLink>
             </NavItem>
             <NavItem className="mt-1">
               <NavLink>
-              <Link to="/tracks" className="link" onClick={collapseNot} >Tracks</Link>
-              </NavLink>
-            </NavItem>
-           
-            <NavItem className="mt-1">
-              <NavLink>
-              <Link to="/abhivyakti" className="link" onClick={collapseNot} >Abhivyakti</Link>
+              <Link to="/tracks" className="link" onClick={collapseNot} style={{textDecoration:"none"}} >Tracks</Link>
               </NavLink>
             </NavItem>
            
             <NavItem className="mt-1">
               <NavLink>
-              <Link to="/faqs" className="link" onClick={collapseNot} >FAQs</Link>
+              <Link to="/abhivyakti" className="link" onClick={collapseNot} style={{textDecoration:"none"}} >Abhivyakti</Link>
+              </NavLink>
+            </NavItem>
+           
+            <NavItem className="mt-1">
+              <NavLink>
+              <Link to="/faqs" className="link" onClick={collapseNot} style={{textDecoration:"none"}} >FAQs</Link>
               </NavLink>
             </NavItem>
           </Nav>
@@ -64,29 +64,29 @@ export const Navg = (props) => {
         <Nav className="ml-auto" navbar>
             <NavItem className="mt-1">
               <NavLink>
-              <Link to="/" className="link"   >Home</Link>
+              <Link to="/" className="link" style={{textDecoration:"none"}}   >Home</Link>
               </NavLink>
             </NavItem>
             <NavItem className="mt-1">
               <NavLink>
-              <Link to="/registration" className="link"  >Register</Link>
+              <Link to="/registration" className="link" style={{textDecoration:"none"}}  >Register</Link>
               </NavLink>
             </NavItem>
             <NavItem className="mt-1">
               <NavLink>
-              <Link to="/tracks" className="link"  >Tracks</Link>
-              </NavLink>
-            </NavItem>
-           
-            <NavItem className="mt-1">
-              <NavLink>
-              <Link to="/abhivyakti" className="link"  >Abhivyakti</Link>
+              <Link to="/tracks" className="link" style={{textDecoration:"none"}}  >Tracks</Link>
               </NavLink>
             </NavItem>
            
             <NavItem className="mt-1">
               <NavLink>
-              <Link to="/faqs" className="link"  >FAQs</Link>
+              <Link to="/abhivyakti" className="link" style={{textDecoration:"none"}}  >Abhivyakti</Link>
+              </NavLink>
+            </NavItem>
+           
+            <NavItem className="mt-1">
+              <NavLink>
+              <Link to="/faqs" className="link" style={{textDecoration:"none"}}  >FAQs</Link>
               </NavLink>
             </NavItem>
           </Nav>
