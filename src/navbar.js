@@ -38,9 +38,9 @@ export const Navg = (props) => {
         <NavbarBrand href="https://codechefsrm.in" className="mt-1"><img src={navlogo} alt="" height="20" width="110"></img></NavbarBrand>
         
        
-        <button className="navbtn ml-auto mr-2 d-block d-md-none" style={{fontSize:"20px"}} onClick={() => {toggle();} }>
+        <div className="navbtn ml-auto d-block d-md-none p-3" style={{fontSize:"20px"}} onClick={() => {toggle();} }>
           <i className={isOpen?close:open}></i>
-        </button>
+        </div>
         
         <Collapse isOpen={isOpen} navbar >
           <Nav className="ml-auto d-block d-md-none" navbar>

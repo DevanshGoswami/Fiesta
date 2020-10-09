@@ -12,6 +12,7 @@ import {ABHI} from './abhi';
 import {FRY} from './fry';
 
 import Loader from './loader';
+import {Sponsor} from './sponsors';
 
 
 
@@ -45,6 +46,11 @@ class App extends React.Component{
                 <Home/>
          
             )}/>
+             <Route path="/sponsor" exact render ={()=>(
+             
+             <Sponsor/>
+      
+         )}/>
              <Route path="/faqs" exact render ={()=>(
              
              <Loader/>
