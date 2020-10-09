@@ -1,10 +1,11 @@
 import React, {useState} from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
+import './assets/css/fontawesome-all.min.css';
 import {Link} from 'react-router-dom';
 import {
   Collapse,
   Navbar,
-  NavbarToggler,
+  
   NavbarBrand,
   Nav,
   NavItem
@@ -16,7 +17,18 @@ import './assets/css/nav.css';
 export const Navg = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const toggle = () => setIsOpen(!isOpen);
+  
+
+
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  }
+
+ 
+  
+
+  let open = "fa fa-bars ico";
+  let close = "fa fa-times ico";
 
   const collapseNot = () => setIsOpen(!isOpen);
 
@@ -25,7 +37,10 @@ export const Navg = (props) => {
       <Navbar dark fixed="top" expand="md" style={props.style}>
         <NavbarBrand href="https://codechefsrm.in" className="mt-1"><img src={navlogo} alt="" height="20" width="110"></img></NavbarBrand>
         
-        <NavbarToggler onClick={toggle}/>
+       
+        <button className="navbtn ml-auto mr-2 d-block d-md-none" style={{fontSize:"20px"}} onClick={() => {toggle();} }>
+          <i className={isOpen?close:open}></i>
+        </button>
         
         <Collapse isOpen={isOpen} navbar >
           <Nav className="ml-auto d-block d-md-none" navbar>

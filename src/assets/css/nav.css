@@ -17,6 +17,33 @@
 .navbar-toggler-icon:focus {
     outline: none;
     box-shadow: none;
+    border: none;
+    padding: 0;
+}
+
+.navbtn{
+  outline: none;
+    box-shadow: none;
+    border: none;
+    padding: 0;
+
+}
+
+.ico{
+  color:white;
+}
+
+.navbtn:focus,.navbtn:active,.navbtn i:focus{
+  outline: none;
+    box-shadow: none;
+    border: none;
+    padding: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    box-shadow: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
 
 
