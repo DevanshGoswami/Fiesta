@@ -13,7 +13,8 @@ import Logo from './images/cheff.png';
 import {withRouter,Link} from 'react-router-dom';
 import {Helmet} from 'react-helmet';
 import Andi from './images/andi.png';
-import Timeline from './images/timeline.jpg'
+
+import {Sponsor} from './sponsors';
 
 
 class Home extends React.Component{
@@ -124,27 +125,17 @@ class Home extends React.Component{
         </div>
     </section>
 
-    <section className="spotlight style1 orient-center content-align-center image-position-center onscroll-image-fade-in">
-        <div className="content">
-            <h2 style={{fontWeight:"800",fontSize:"70px"}}><span style={{color:"#0f1178"}}>Time</span>line</h2>
-            
+    <section className="wrapper style1 align-center">
+        <div className="inner">
+        <Sponsor/>
         </div>
-        
-    </section>
 
-    <section className="banner style2 orient-center content-align-center  fullscreen onload-image-fade-in onload-content-fade-right" style={{color:"white"}}>
-        <div className="content" style={{opacity:0}}>
-        <h1 style={{fontWeight:"800",fontSize:"78px"}}><span style={{color:"white"}}>CHEF'S</span><span style={{color:"#0f1178"}}> FIESTA</span></h1>
-							<p style={{fontSize:"25px"}} className="major">Adding spice to your code.</p>
-							<ul className="actions stacked">
-								<li><Link to="/registration"  className="button primary big wide smooth-scroll-middle">REGISTER</Link></li>
-							</ul>
-           
-        </div>
-        <div className="image">
-        <img src={Timeline} alt=""/>
-        </div>
-    </section>
+  </section>
+
+
+  
+    
+    
 
     
                    

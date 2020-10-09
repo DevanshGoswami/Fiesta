@@ -40,6 +40,59 @@
   
 }
 
+.buttonsilver {
+  background-color: #C0C0C0;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 30px;
+  padding-right: 100px;
+  padding-left: 100px;
+  font-size:25px;
+
+  margin-bottom: 20px;
+}
+
+.buttonbronze {
+  background-color: #cd7f32;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 30px;
+  padding-right: 100px;
+  padding-left: 100px;
+  font-size:25px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.buttonred {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 30px;
+  padding-right: 100px;
+  padding-left: 100px;
+  font-size:25px;
+  margin-top: 50px;
+  
+}
+
 
 /* Accordian */
 
