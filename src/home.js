@@ -43,12 +43,12 @@ class Home extends React.Component{
       <div id="wrapper" className="divided">
 
 
-    <section className="banner style2 orient-center content-align-center  fullscreen onload-image-fade-in onload-content-fade-right" style={{color:"white"}}>
+    <section className="banner style2 orient-left content-align-left  fullscreen onload-image-fade-in onload-content-fade-right" style={{color:"white"}}>
         <div className="content">
         <h1 style={{fontWeight:"800",fontSize:"78px"}}><span style={{color:"white"}}>CHEF'S</span><span style={{color:"#0f1178"}}> FIESTA</span></h1>
-							<p style={{fontSize:"18px",fontStyle:"italic"}} className="major">Adding spice to your code.</p>
-                            <br></br>
-							<ul className="actions stacked">
+							<p style={{fontSize:"18px",fontStyle:"italic"}} className="major">"when you don't create things, you become defined by your tastes rather than ability. your tastes only narrow {'&'} exclude people. so create".</p>
+                            
+							<ul className="actions fixed">
 								<li><Link to="/registration"  className="button primary big wide smooth-scroll-middle">REGISTER</Link></li>
 							</ul>
            
