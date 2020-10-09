@@ -12,6 +12,7 @@ import sp7 from './images/7.jpg';
 import {Link} from 'react-router-dom';
 import {Helmet} from 'react-helmet';
 import Andi from './images/andi.png';
+import {Navg} from './navbar';
 
 export const Track = () => {
     return(
@@ -28,6 +29,7 @@ export const Track = () => {
              /> 
              <title>Tracks</title>
                 </Helmet>
+				<Navg style={{background:"#d69d70"}}/>
        <div id="wrapper" className="divided">
 
 
@@ -41,7 +43,7 @@ export const Track = () => {
         <br></br>
             <p style={{fontWeight:"400"}}>Presenting to you the <span className="theme2">7</span> flavours we have carefully chosen for Chef's Hack.</p>
             <ul className="actions fixed">
-			  <li><Link to="/" className="button primary1">Home</Link></li>
+			  <li><Link to="/registration" className="button primary1">Register</Link></li>
 			</ul>
 
         </div>

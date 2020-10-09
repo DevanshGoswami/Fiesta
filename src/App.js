@@ -11,6 +11,7 @@ import {APOC} from './apoc';
 import {ABHI} from './abhi';
 import {FRY} from './fry';
 
+import Loader from './loader';
 
 
 
@@ -31,15 +32,23 @@ class App extends React.Component{
   render() {
     return (
       <>
-     
+    
       <Router>
-        <div className="App">
-        <ScrollToTop/>
+      <ScrollToTop/>
+  
+      <div className="App">
+        
           <Switch location = {this.props.location}>
+         
             <Route path="/" exact render ={()=>(
              
                 <Home/>
          
+            )}/>
+             <Route path="/faqs" exact render ={()=>(
+             
+             <Loader/>
+      
             )}/>
            
             <Route path="/tracks" exact render ={()=>(
@@ -64,8 +73,9 @@ class App extends React.Component{
               <Error/>
             )}/>
            
+         
           </Switch> 
-        </div>
+          </div>
      </Router>
      </>
     );

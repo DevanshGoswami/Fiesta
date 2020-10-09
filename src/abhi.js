@@ -6,6 +6,7 @@ import Logo from './images/Abhivyakti.png';
 import {Link} from 'react-router-dom';
 import {Helmet} from 'react-helmet';
 import Andi from './images/andi.png';
+import {Navg} from './navbar';
 
 export const ABHI = () => {
     return(
@@ -22,6 +23,7 @@ export const ABHI = () => {
              /> 
              <title>Abhivyakti</title>
                 </Helmet>
+                <Navg style={{background:"#13007d"}}/>
        <div id="wrapper" className="divided">
 
 
@@ -35,7 +37,7 @@ export const ABHI = () => {
      
            
             <ul className="actions fixed">
-			  <li><Link to="/" className="button primary3">Home</Link></li>
+			  <li><Link to="/registration" className="button primary3">Register</Link></li>
 			</ul>
 
         </div>

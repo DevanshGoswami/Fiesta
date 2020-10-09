@@ -1,8 +1,8 @@
 import React from 'react';
 import './assets/css/main.css';
-
+import {Navg} from './navbar';
 import './assets/css/fontawesome-all.min.css';
-import Accordion from './test';
+
 import Banner from './images/banner.jpg';
 import sp1 from './images/spotlight01.jpg';
 import sp2 from './images/spotlight02.jpg';
@@ -20,23 +20,7 @@ class Home extends React.Component{
 
     render(){
 
-        const data = [
-            { id: 1, name: "How do I register for various events in Chef's Fiesta?", 
-            content: "Registration link will be provided for all the events on social media platforms and codechefsrm.in/events", state: "inactive" },
-            { id: 2, name: "Can I participate in more than one event?", 
-            content: "Yes, you can participate in multiple events.", state: "inactive" },
-            { id: 3, name: "Is there a registration fee?", 
-            content: "No, there's no registration fee for any event.", state: "inactive" },
-            { id: 4, name: "How do I attend the webinars?", 
-            content: "After you register, the link for the webinar, timing and platform will be e-mailed to your registered e-mail ID prior to the event.", state: "inactive" },
-            { id: 5, name: "Will I get a certificate for participating in an event?", 
-            content: "Yes, everyone who participates will receive a participation certificate.", state: "inactive" },
-            { id: 6, name: "How can I contact you if I face any problem?", 
-            content: "You can contact us at – codechefsrm@gmail.com", state: "inactive" },
-            { id: 7, name: "Something which Chef loves the most?", 
-            content: "01010100 01101111 00100000 01000011 01101111 01100100 01100101 00100000 01001111 01110101 01110010 00100000 01001000 01100101 01100001 01110010 01110100 01110011 00100000 01001111 01110101 01110100 00100001.", state: "inactive" },
-            
-          ];
+       
        return(
         <>
         <Helmet>
@@ -51,8 +35,8 @@ class Home extends React.Component{
              <title>Chef's Fiesta - Home</title>
                 </Helmet>
      
-           
       
+                <Navg style={{background:"#0f1178"}}/>
 
 
       <div id="wrapper" className="divided">
@@ -62,6 +46,7 @@ class Home extends React.Component{
         <div className="content">
         <h1 style={{fontWeight:"800",fontSize:"78px"}}><span style={{color:"white"}}>CHEF'S</span><span style={{color:"#0f1178"}}> FIESTA</span></h1>
 							<p style={{fontSize:"25px"}} className="major">Adding spice to your code.</p>
+                            <br></br>
 							<ul className="actions stacked">
 								<li><Link to="/registration"  className="button primary big wide smooth-scroll-middle">REGISTER</Link></li>
 							</ul>
@@ -138,40 +123,33 @@ class Home extends React.Component{
         </div>
     </section>
 
-    <section className="spotlight style4 orient-center content-align-center image-position-center onscroll-image-fade-in" id="first">
-						<div className="content">
-                        <h2 style={{fontWeight:"800",fontSize:"55px"}}><span style={{color:'#0f1178'}}>Time</span>line</h2>
-                        <p className="major" style={{fontWeight:"400"}}>
-                            The Chef has not served yet?<br></br>
-                            Something delicious is cooking....
-                        </p>
-						</div>
-                        
-						
-					</section>
+    <section className="spotlight style1 orient-center content-align-center image-position-center onscroll-image-fade-in">
+        <div className="content">
+            <h2 style={{fontWeight:"800",fontSize:"70px"}}><span style={{color:"#0f1178"}}>Time</span>line</h2>
+            
+        </div>
+        
+    </section>
 
-    <section className="spotlight style4 orient-center content-align-left image-position-center onscroll-image-fade-in" id="first">
-						<div className="content" style={{marginTop:"150px",marginBottom:"40px"}}>
-							
-						</div>
-						<div className="image">
-                            <img src={Timeline} alt=""/>
-                            </div>
-					</section>
+    <section className="banner style2 orient-center content-align-center  fullscreen onload-image-fade-in onload-content-fade-right" style={{color:"white"}}>
+        <div className="content" style={{opacity:0}}>
+        <h1 style={{fontWeight:"800",fontSize:"78px"}}><span style={{color:"white"}}>CHEF'S</span><span style={{color:"#0f1178"}}> FIESTA</span></h1>
+							<p style={{fontSize:"25px"}} className="major">Adding spice to your code.</p>
+							<ul className="actions stacked">
+								<li><Link to="/registration"  className="button primary big wide smooth-scroll-middle">REGISTER</Link></li>
+							</ul>
+           
+        </div>
+        <div className="image">
+        <img src={Timeline} alt=""/>
+        </div>
+    </section>
+
+    
                    
 
    
-    <section className="wrapper style1 align-left">
-						<div className="inner">
-                      
-										<header>
-											<h3 style={{fontWeight:"bold",fontSize:"50px"}}><span style={{color:"#0f1178"}}>F</span>AQs</h3>
-										</header>
-										
-                                    <Accordion data={data} />
-                            </div>
-                            </section>
-
+  
    
 
    

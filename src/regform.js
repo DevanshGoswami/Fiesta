@@ -5,6 +5,7 @@ import './assets/css/fontawesome-all.min.css';
 import axios from 'axios';
 import {Helmet} from 'react-helmet';
 import Andi from './images/andi.png';
+import {Navg} from './navbar';
 
 import Logo from './images/cheff.png';
 
@@ -84,6 +85,7 @@ class RegForm extends React.Component{
              /> 
              <title>Registeration</title>
                 </Helmet>
+                <Navg style={{background:"#0f1178"}}/>
          <div id="wrapper" className="divided">
 
          <section className="wrapper style1 align-center">
@@ -105,9 +107,7 @@ class RegForm extends React.Component{
     <li>Certificate will only be provided to the participants who participate in any of the events. Thus, form registration doesn't guarantee you a certificate.</li>
     <li>For any queries, please feel free to contact us at <a href="mailto:codechefsrm@gmail.com" className="theme">codechefsrm@gmail.com</a></li>
 </ul>
-<ul className="actions fixed">
-			  <li><Link to="/" className="button primary">Home</Link></li>
-			</ul> 
+
 
 </div>
         </div>

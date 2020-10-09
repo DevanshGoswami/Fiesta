@@ -6,6 +6,7 @@ import Logo from './images/fry.png';
 import {Link} from 'react-router-dom';
 import {Helmet} from 'react-helmet';
 import Andi from './images/andi.png';
+import {Navg} from './navbar';
 
 export const FRY = () => {
     return(
@@ -22,6 +23,7 @@ export const FRY = () => {
              /> 
              <title>Fry 'N' Try</title>
                 </Helmet>
+                <Navg style={{background:"#ea6943"}}/>
        <div id="wrapper" className="divided">
 
 
@@ -35,7 +37,7 @@ export const FRY = () => {
         
            
             <ul className="actions fixed">
-			  <li><Link to="/" className="button primary4">Home</Link></li>
+			  <li><Link to="/registration" className="button primary4">Register</Link></li>
 			</ul>
 
         </div>

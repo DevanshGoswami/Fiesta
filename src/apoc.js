@@ -6,6 +6,7 @@ import Logo from './images/APOC.png';
 import {Link} from 'react-router-dom';
 import {Helmet} from 'react-helmet';
 import Andi from './images/andi.png';
+import {Navg} from './navbar';
 
 export const APOC = () => {
     return(
@@ -20,8 +21,9 @@ export const APOC = () => {
             name="APOC 2.0"
             content="Flagship Coding competition by CodeChef SRM."
              /> 
-             <title>Tracks</title>
+             <title>APOC 2.0</title>
                 </Helmet>
+                <Navg style={{background:"#118f46"}}/>
        <div id="wrapper" className="divided">
 
 
@@ -35,7 +37,7 @@ export const APOC = () => {
         <br></br>
            
             <ul className="actions fixed">
-			  <li><Link to="/" className="button primary2">Home</Link></li>
+			  <li><Link to="/registration" className="button primary2">Register</Link></li>
 			</ul>
 
         </div>
