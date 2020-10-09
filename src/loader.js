@@ -1,4 +1,5 @@
 import React from 'react';
+import {Navg} from './navbar';
 import './assets/css/main.css';
 import './assets/css/fontawesome-all.min.css';
 import Accordion from './test';
@@ -6,7 +7,7 @@ import Logo from './images/cheff.png';
 import {Link} from 'react-router-dom';
 import {withRouter} from 'react-router-dom';
 
-import {Navg} from './navbar';
+
 
 
 

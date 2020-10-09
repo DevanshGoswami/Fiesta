@@ -1,11 +1,12 @@
 import React from 'react';
+import {Navg} from './navbar';
 import {withRouter,Link} from 'react-router-dom';
 import './assets/css/main.css';
 import './assets/css/fontawesome-all.min.css';
 import axios from 'axios';
 import {Helmet} from 'react-helmet';
 import Andi from './images/andi.png';
-import {Navg} from './navbar';
+
 
 import Logo from './images/cheff.png';
 

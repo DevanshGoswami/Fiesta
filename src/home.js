@@ -1,6 +1,7 @@
 import React from 'react';
-import './assets/css/main.css';
 import {Navg} from './navbar';
+import './assets/css/main.css';
+
 import './assets/css/fontawesome-all.min.css';
 
 import Banner from './images/banner.jpg';

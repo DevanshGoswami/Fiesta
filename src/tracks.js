@@ -1,4 +1,5 @@
 import React from 'react';
+import {Navg} from './navbar';
 import './assets/css/main.css';
 import './assets/css/fontawesome-all.min.css';
 import Logo from './images/cheff2.png';
@@ -12,7 +13,7 @@ import sp7 from './images/7.jpg';
 import {Link} from 'react-router-dom';
 import {Helmet} from 'react-helmet';
 import Andi from './images/andi.png';
-import {Navg} from './navbar';
+
 
 export const Track = () => {
     return(

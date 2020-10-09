@@ -1,4 +1,5 @@
 import React from 'react';
+import {Navg} from './navbar';
 import './assets/css/main.css';
 import './assets/css/fontawesome-all.min.css';
 import Logo from './images/fry.png';
@@ -6,7 +7,7 @@ import Logo from './images/fry.png';
 import {Link} from 'react-router-dom';
 import {Helmet} from 'react-helmet';
 import Andi from './images/andi.png';
-import {Navg} from './navbar';
+
 
 export const FRY = () => {
     return(
