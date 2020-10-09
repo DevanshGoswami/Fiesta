@@ -24,7 +24,8 @@ export const Navg = (props) => {
     <div>
       <Navbar dark  expand="md" style={props.style}>
         <NavbarBrand href="https://codechefsrm.in" className="mt-1"><img src={navlogo} alt="" height="20" width="110"></img></NavbarBrand>
-        <NavbarToggler onClick={toggle}  />
+        
+        <NavbarToggler onClick={toggle}/>
         
         <Collapse isOpen={isOpen} navbar >
           <Nav className="ml-auto d-block d-md-none" navbar>
