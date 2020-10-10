@@ -30,6 +30,12 @@ function ScrollToTop() {
 }
 
 class App extends React.Component{
+
+componentDidMount(){
+  console.log("Well, Chef's Fiesta has made you excited, has'nt it?")
+}
+
+
   render() {
     return (
       <>
