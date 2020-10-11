@@ -102,7 +102,7 @@ class RegForm extends React.Component{
 <ul>
     <li>Kindly fill the form given below with correct information.</li>
     <li>Do note that this form is for the registration of Chef's Fiesta, but individual events will require separate registration. </li>
-    <li style={{fontWeight:"500"}}>Upon successful completion of the given form, you'll receive an email with the link(s) of individual events that you choose. Make sure to fill the individual event forms.</li>
+    <li style={{fontWeight:"700"}}>Upon successful completion of the given form, you'll receive an email with the link(s) of individual events that you choose. Make sure to fill the individual event forms.</li>
     <li>Fry 'n' Try will be open for all, and thus does not require any registration.</li>
     <li>Choose all the events that you're interested in by selecting the corresponding checkbox.</li>
     <li>Certificate will only be provided to the participants who participate in any of the events. Thus, form registration doesn't guarantee you a certificate.</li>
