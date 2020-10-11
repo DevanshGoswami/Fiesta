@@ -34,7 +34,7 @@ export const Thanks = () =>{
             <p className="major">You have been successfully registered for <span className="theme">Chef's</span> Fiesta.</p>
             <br>
             </br>
-            <p className="major" style={{fontSize:"20px"}}>Check your <span className="theme">MailBoxes</span> to register yourself for the chosen events.</p>
+            <p className="major" style={{fontSize:"20px"}}>Check your <span className="theme">MailBoxes</span> to register yourself for the individual events you have chosen on <strong style={{fontWeight:"800"}}>Google Form</strong>.</p>
             <ul className="actions fixed">
 								<li><Link to="/"  className="button primary big wide smooth-scroll-middle">HOME</Link></li>
 							</ul>
