@@ -103,7 +103,7 @@ class RegForm extends React.Component{
     <li>Kindly fill the form given below with correct information.</li>
     <li>Do note that this form is for the registration of Chef's Fiesta, but individual events will require separate registration. </li>
     <li style={{fontWeight:"700"}}>Upon successful completion of the given form, you'll receive an email with the link(s) of individual events that you choose. Make sure to fill the individual event forms.</li>
-    <li>Fry 'n' Try will be open for all, and thus does not require any registration.</li>
+    <li>Fry 'n' Try will be open6 for all, and thus does not require any registration.</li>
     <li>Choose all the events that you're interested in by selecting the corresponding checkbox.</li>
     <li>Certificate will only be provided to the participants who participate in any of the events. Thus, form registration doesn't guarantee you a certificate.</li>
     <li>For any queries, please feel free to contact us at <a href="mailto:codechefsrm@gmail.com" className="theme">codechefsrm@gmail.com</a></li>
@@ -133,7 +133,7 @@ class RegForm extends React.Component{
                         <input type="text" name="phone" id="phone" value={phone} onChange={this.handleChange} required placeholder="+91 99 99999999"/>
                     </div>
                     <div className="field half">
-                        <label htmlFor="regno" className="theme">Registration Number</label>
+                        <label htmlFor="regno" className="theme">Registration Number/Roll Number</label>
                         <input type="text" name="regno" id="regno" value={regno} onChange={this.handleChange} required placeholder="RAXXXXXXXXXXXXX"/>
                     </div>
                     <div className="field">
