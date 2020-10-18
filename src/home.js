@@ -43,7 +43,7 @@ class Home extends React.Component{
                 <Navg style={{background:"#0f1178"}}/>
 
 
-      <div id="wrapper" className="divided" style={{marginTop:"50px"}}>
+      <div id="wrapper" className="divided" style={{marginTop:"10px"}}>
 
 
     <section className="banner style2 orient-center content-align-left  fullscreen onload-image-fade-in onload-content-fade-right" style={{color:"white"}}>
