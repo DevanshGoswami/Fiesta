@@ -76,6 +76,7 @@ export const Prizes = () => {
     <div className="card-body ">
       <h5 className="card-title" style={{fontWeight:"600",fontSize:"26px"}}>1st</h5>
       <ul style={{fontWeight:"400"}}>
+        <li>Foxmula training program worth Rs.5,000</li>
           <li>CodeChef Laddus, know more about them <a href="https://www.codechef.com/laddu" style={{color:"#118f46"}}>here</a></li>
           <li>PrepBytes Gift Card of Rs 1500</li>
           <li>Coding Blocks discount coupon of 90%</li>
@@ -100,6 +101,7 @@ export const Prizes = () => {
     <div className="card-body">
       <h5 className="card-title" style={{fontWeight:"600",fontSize:"26px"}}>3rd</h5>
       <ul style={{fontWeight:"400"}}>
+
       <li>CodeChef Laddus, know more about them <a href="https://www.codechef.com/laddu" style={{color:"#118f46"}}>here</a></li>
       <li>PrepBytes Gift Card of Rs 1500</li>
           <li>Coding Blocks discount coupon of 70%</li>
