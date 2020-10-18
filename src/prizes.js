@@ -27,6 +27,7 @@ export const Prizes = () => {
           <li style={{fontWeight:"600"}}>Cash Prize: <i class="fa fa-rupee" style={{color:"#d69d70"}} aria-hidden="true"></i> 5,000</li>
           <li>Goodies worth Rs 700 for team, which includes Premium Cotton Tshirt, premium quality laptop stickers and badges.</li>
           <li>PrepBytes Gift Card of Rs 3500.</li>
+          <li>Devfolio Tshirts and Schwags.</li>
           <li>3 free months of our hacker plan at Repl.it.</li>
           <li>1-year subscription licenses of Axure RP Team Edition.</li>
           <li>(Coding Blocks discount coupon of 90%) * team</li>
@@ -43,6 +44,7 @@ export const Prizes = () => {
           <li style={{fontWeight:"600"}}>Cash Prize: <i class="fa fa-rupee" style={{color:"#d69d70"}} aria-hidden="true"></i> 3,000</li>
           <li>Goodies worth Rs 700 for team, which includes Premium Cotton Tshirt, premium quality laptop stickers and badges.</li>
           <li>PrepBytes Gift Card of Rs 3000.</li>
+          <li>Devfolio Tshirts and Schwags.</li>
           <li>3 free months of our hacker plan at Repl.it.</li>
           <li>1-year subscription licenses of Axure RP Team Edition.</li>
           <li>(Coding Blocks discount coupon of 80%) * team</li>
@@ -59,6 +61,7 @@ export const Prizes = () => {
           <li style={{fontWeight:"600"}}>Cash Prize: <i class="fa fa-rupee" style={{color:"#d69d70"}} aria-hidden="true"></i> 2,000</li>
           <li>Goodies worth Rs 700 for team, which includes Premium Cotton Tshirt, premium quality laptop stickers and badges.</li>
           <li>PrepBytes Gift Card of Rs 2500.</li>
+          <li>Devfolio Tshirts and Schwags.</li>
           <li>3 free months of our hacker plan at Repl.it.</li>
           <li>1-year subscription licenses of Axure RP Team Edition.</li>
           <li>(Coding Blocks discount coupon of 70%) * team</li>
