@@ -20,6 +20,11 @@ export const Sponsor = () => {
                 </div>
                
             </div>
+            <div className="content">
+                   <a href="https://xobin.com/products/coding-skills-assessment-software/" style={{textDecoration:"none",fontWeight:"bold",fontSize:"20px"}}><div className="content box" style={{borderRadius:"100"}}>
+                   Xobin Coding Skills Assesment Software
+                   </div></a>
+                   </div>
             </div>
 
             <div className="content box">

@@ -208,6 +208,8 @@ class Home extends React.Component{
         
 					<div className="inner">
                     <img src={Logo} alt="" height="200" width="200"></img>
+                    
+                   
 						<ul className="icons" style={{marginTop:"50px",fontSize:"20px"}}>
 							<li><a href="https://twitter.com/CodeChefSRM" className="icon brands style1 fa-twitter theme" target = "_blank" rel = "noopener noreferrer"><span className="label">Twitter</span></a></li>
 							<li><a href="https://www.facebook.com/CodeChefSRM/" className="icon brands style1 fa-facebook-f theme" target = "_blank" rel = "noopener noreferrer"><span className="label">Facebook</span></a></li>
@@ -226,6 +228,8 @@ class Home extends React.Component{
                         <span style={{fontSize:"14px"}}>
                         <i className="fa fa-phone theme" aria-hidden="true"></i> Contact us: <br></br><a href="tel:+91 87916 15165" className="theme" style={{textDecoration:"none",fontWeight:"bold"}}>Takshil Mittal</a> <br></br><a href="tel:+91 95715 66754" className="theme" style={{textDecoration:"none",fontWeight:"bold"}}>Sachin Agarwal</a>
                         </span>
+                      
+                        
 					</div>
     </footer>
 
