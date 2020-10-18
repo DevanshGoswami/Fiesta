@@ -109,6 +109,17 @@ class RegForm extends React.Component{
     <li>For any queries, please feel free to contact us at <a href="mailto:codechefsrm@gmail.com" className="theme">codechefsrm@gmail.com</a></li>
 </ul>
 
+<section className="wrapper style1 align-left">
+            <div className="inner">
+            <h2 style={{fontWeight:"800",fontSize:"30px"}}><span style={{color:'#d69d70'}}>Chef's</span> Hack</h2>
+            <p style={{fontWeight:"400"}}>Go to our page on Devfolio through the link given below and register with your team.</p>
+            <ul className="actions stacked">
+            <li><a href="https://chefshack.devfolio.co" style={{textDecoration:"none"}}><button className="button devfolio" style={{borderRadius:"0", textTransform:"none"}}><svg class="logo" xmlns="http://www.w3.org/2000/svg" fill="#fff"viewBox="0 0 115.46 123.46" style={{height:"18px",width:"18px",marginRight:"8px",}}><path d="M115.46 68a55.43 55.43 0 0 1-50.85 55.11S28.12 124 16 123a12.6 12.6 0 0 1-10.09-7.5 15.85 15.85 0 0 0 5.36 1.5c4 .34 10.72.51 20.13.51 13.82 0 28.84-.38 29-.38h.26a60.14 60.14 0 0 0 54.72-52.47c.05 1.05.08 2.18.08 3.34z" /><path d="M110.93 55.87A55.43 55.43 0 0 1 60.08 111s-36.48.92-48.58-.12C5 110.29.15 104.22 0 97.52l.2-83.84C.38 7 5.26.94 11.76.41c12.11-1 48.59.12 48.59.12a55.41 55.41 0 0 1 50.58 55.34z"/></svg>Apply with Devfolio</button></a></li>
+                </ul>
+           
+            </div>
+        </section>
+
 
 </div>
         </div>
@@ -143,10 +154,7 @@ class RegForm extends React.Component{
 
                   
                   <h2 style={{marginTop:"50px",fontWeight:"800",textAlign:"center"}}><span style={{color:"#0f1178"}}>E</span>VENTS</h2>
-                                                 <div className="field"> 
-														<input type="checkbox" id="hack" name="hack" onChange={this.handleChange} value="Chefs Hack" />
-														<label htmlFor="hack" style={{fontWeight:"400"}}><span>CHEF'S</span> HACK</label>
-													</div>
+                                                 
                                                     <div className="field">
 														<input type="checkbox" id="apoc" name="apoc" onChange={this.handleChange} value="APOC" />
 														<label htmlFor="apoc" style={{fontWeight:"400"}}><span>APOC</span> 2.0</label>
@@ -162,6 +170,7 @@ class RegForm extends React.Component{
                 <ul className="actions special">
                     <li><input type="submit" name="submit" id="submit" value="Submit" className="button primary" /></li>
                 </ul>
+               
             </form>
 
         </div>

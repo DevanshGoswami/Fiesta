@@ -34,7 +34,7 @@ export const Navg = (props) => {
 
   return (
     <div>
-      <Navbar dark fixed="top" expand="md" style={props.style}>
+      <Navbar scrolling dark fixed="top" expand="md"  style={props.style}>
         <NavbarBrand href="https://codechefsrm.in" className="mt-1"><img src={navlogo} alt="" height="20" width="110"></img></NavbarBrand>
         
        
@@ -60,11 +60,6 @@ export const Navg = (props) => {
               
             </NavItem>
            
-            <NavItem className="mt-1">
-              
-              <Link to="/abhivyakti" className="link mx-3 my-2" onClick={collapseNot} style={{textDecoration:"none"}} >Abhivyakti</Link>
-              
-            </NavItem>
            
             <NavItem className="mt-1">
               
@@ -93,11 +88,7 @@ export const Navg = (props) => {
               
             </NavItem>
            
-            <NavItem className="mt-1">
-              
-              <Link to="/abhivyakti" className="link mx-3 my-2" style={{textDecoration:"none"}}  >Abhivyakti</Link>
-              
-            </NavItem>
+            
            
             <NavItem className="mt-1">
               

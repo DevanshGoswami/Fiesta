@@ -19,6 +19,7 @@ import {Sponsor} from './sponsors';
 
 
 
+
 function ScrollToTop() {
   const { pathname } = useLocation();
 
@@ -52,6 +53,9 @@ componentDidMount(){
                 <Home/>
          
             )}/>
+           
+
+            
              <Route path="/sponsor" exact render ={()=>(
              
              <Sponsor/>

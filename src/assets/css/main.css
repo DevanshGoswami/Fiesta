@@ -2219,6 +2219,15 @@ input, select, textarea {
 			box-shadow: none;
 			color: #ffffff !important;
 		}
+		input[type="submit"].devfolio,
+		input[type="reset"].devfolio,
+		input[type="button"].devfolio,
+		button.devfolio,
+		.button.devfolio {
+			background-color:  #3770FF;
+			box-shadow: none;
+			color: #ffffff !important;
+		}
 
 		input[type="submit"].primary1,
 		input[type="reset"].primary1,
@@ -2263,8 +2272,17 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #4b1178;
+				background-color:  #4b1178;
 			}
+
+			input[type="submit"].devfolio:hover,
+			input[type="reset"].devfolio:hover,
+			input[type="button"].devfolio:hover,
+			button.devfolio:hover,
+			.button.devfolio:hover {
+				background-color:  #2954BF;
+			}
+
 			input[type="submit"].primary1:hover,
 			input[type="reset"].primary1:hover,
 			input[type="button"].primary1:hover,

@@ -27,10 +27,6 @@ export const FRY = () => {
                 <Navg style={{background:"#ea6943"}}/>
        <div id="wrapper" className="divided" style={{marginTop:"70px"}}>
 
-
-    
-
-
     <section className="wrapper style1 align-left">
         <div className="inner">
         <h2 style={{fontWeight:"800",fontSize:"50px"}}>FRY <span style={{color:"#ea6943"}}>'N' </span>TRY</h2>
@@ -39,8 +35,9 @@ export const FRY = () => {
            
             <ul className="actions fixed">
 			  <li><Link to="/registration" className="button primary4">Register</Link></li>
+             
 			</ul>
-
+           
         </div>
       
 
