@@ -17,6 +17,7 @@ import Andi from './images/andi.png';
 import {Sponsor} from './sponsors';
 import Timer from './timer';
 import {Timeline} from './timeline';
+import {Speaker} from './speakers';
 
 
 class Home extends React.Component{
@@ -82,6 +83,14 @@ class Home extends React.Component{
 
     <section className="wrapper style1 align-center">
         <div className="inner">
+            <p style={{fontSize:"25px",fontWeight:"400"}}>Time is a storm in which we all are lost..</p>
+        <Timer key="October 23,2020" eventName="Hello" eventDate="October 23,2020"/>
+        </div>
+
+  </section>
+
+    <section className="wrapper style1 align-center">
+        <div className="inner">
         <h2 style={{fontWeight:"800",fontSize:"50px",marginBottom:"70px"}}><span style={{color:'#0f1178'}}>E</span>VENTS</h2>
         <div className="content box">
         <section className="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first"  style={{marginBottom:"50px"}}>
@@ -141,36 +150,25 @@ class Home extends React.Component{
         </div>
     </section>
         </div>
-        
-        
-
-    
-
-
-    
-
-    
         </div>
 
     </section>
 
+    
+
 
     
 
-    <section className="wrapper style1 align-center">
-        <div className="inner">
-            <p style={{fontSize:"25px",fontWeight:"400"}}>Time is a storm in which we all are lost..</p>
-        <Timer key="October 23,2020" eventName="Hello" eventDate="October 23,2020"/>
-        </div>
-
-  </section>
+  
 
   <section className="wrapper style1 align-center">
         <div className="inner">
-        <Timeline/>
+        <Speaker/>
         </div>
 
   </section>
+
+  
 
     <section className="wrapper style1 align-center">
         <div className="inner">
@@ -188,21 +186,14 @@ class Home extends React.Component{
 
  
 
-  
+  <section className="wrapper style1 align-center">
+        <div className="inner">
+        <Timeline/>
+        </div>
+
+  </section>
 
 
-  
-    
-    
-
-    
-                   
-
-   
-  
-   
-
-   
 
     <footer className="wrapper style1 align-center">
         
@@ -223,6 +214,9 @@ class Home extends React.Component{
             <br></br> <Link to="/registration" style={{textDecoration:"none",color:"#0f1178"}}>REGISTER</Link></p>
                         
 						<p><span className="theme">&copy;</span> Chef's Fiesta: All Rights Reserved.</p>
+                        <p> <a href="https://xobin.com/products/coding-skills-assessment-software/" style={{textDecoration:"none",fontWeight:"bold",fontSize:"18px"}}><div className="content" style={{borderRadius:"100"}}>
+                   Xobin Coding Skills Assesment Software
+                   </div></a></p>
                         <p>{'</>'} by <a href="https://codechefsrm.in" className="theme" style={{textDecoration:"none"}}>CodeChef SRM</a></p>
 						
                         <span style={{fontSize:"14px"}}>

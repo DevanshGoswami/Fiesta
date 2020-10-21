@@ -9,7 +9,7 @@ export const Timeline = () => {
 
     return(
         <>
-        <h2 style={{fontWeight:"800",fontSize:"40px",marginBottom:"50px"}}><span style={{color:'#0f1178'}}>Time</span>line</h2>
+        <h2 style={{fontWeight:"800",fontSize:"40px",marginBottom:"50px"}}><span style={{color:'#0f1178'}}>TIME</span>LINE</h2>
         <div>
            
             <div className="d-none d-lg-block">

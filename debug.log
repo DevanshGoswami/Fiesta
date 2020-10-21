@@ -10,3 +10,4 @@
 [1009/230757.838:ERROR:minidumpwritedump_with_crashpad_info.cc(661)] Failed to write minidump file
 [1009/230757.838:ERROR:crash_report_exception_handler.cc(132)] TryMiniDumpWriteDumpWithCrashpadInfo failed
 [1009/230757.843:ERROR:process_info.cc(359)] UncheckedAllocate
+[1022/010506.387:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
