@@ -117,9 +117,7 @@ export const Sponsor = () => {
                 <div className="col-12 col-sm-3 mx-2 py-3">
                     <a href="https://www.myklassroom.com/"><img src="https://media.myklassroom.com/root/canvas/images/myKlassroom-logo-1.png" alt="" height="170px" width="140px"></img></a>
                 </div>
-                <div className="col-12 col-sm-3 mx-2 mt-4">
-                <a href="https://www.snapchat.com/"><img src="https://cdn2.downdetector.com/static/uploads/logo/image11.png" height="100px" width="100px"  alt=""></img></a>
-                </div>
+               
             </div>
             </div>
             <div>
