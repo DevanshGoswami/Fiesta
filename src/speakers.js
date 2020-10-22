@@ -97,7 +97,26 @@ export const Speaker = () => {
                 
                 </div>
             </div>
+            
+          
             </div>
+            <div className="card-deck justify-content-center">
+           <div class="card col-md-3 hovercard" style={{border:"none"}}>
+                <img class="card-img-top rounded-circle" src="https://media-exp1.licdn.com/dms/image/C5103AQHcIQQyUBKj1A/profile-displayphoto-shrink_800_800/0?e=1608768000&v=beta&t=IWiWHk0_ckbApXz62OMidIoZmHCR9XXyKInp5aK_uw8" alt=""/>
+                <div class="card-body">
+                <h5 class="card-title" style={{fontSize:"20px"}}>Ayush Agarwal</h5>
+                <p>
+                
+                Teaching Assistant  NUS
+                </p>
+                <ul className="icons" style={{fontSize:"20px"}}>
+							<li><a href="https://www.linkedin.com/in/aayush-ag21/" className="icon brands style2 fa-linkedin theme" target = "_blank" rel = "noopener noreferrer"><span className="label">Twitter</span></a></li>
+							
+						</ul>
+                
+                </div>
+            </div>
+           </div>
         </>
     );
 }
